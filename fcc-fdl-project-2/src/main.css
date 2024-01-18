@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 1rem 2.5rem;
+  background-color: #FFFAF5;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Raleway", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Open Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+/*# sourceMappingURL=main.css.map */
