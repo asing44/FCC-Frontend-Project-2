@@ -1,0 +1,36 @@
+@use "variables";
+
+.container-header-w {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: {
+        top: 0.25rem;
+        right: 1rem;
+        bottom: 0.25rem;
+        left: 1rem;
+    }
+    background-color: variables.$color_light_primary;
+
+    .header-left {
+        display: flex;
+        align-items: center;
+        gap: 0.50rem;
+
+        .container-heading {
+                margin: 0;
+            }
+    }
+
+    .container-icon-expand {
+        justify-self: end;
+    }
+}
+
+.paste-box {
+    min-height: 25vh;
+    border: {
+        top: 1px solid variables.$color_light_accent;
+    }
+    background-color: transparentize(variables.$color_light_primary, 0.75);
+}

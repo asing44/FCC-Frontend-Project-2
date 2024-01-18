@@ -1,0 +1,29 @@
+.container-header-w {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.25rem;
+  padding-right: 1rem;
+  padding-bottom: 0.25rem;
+  padding-left: 1rem;
+  background-color: #DBCE9F;
+}
+.container-header-w .header-left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.container-header-w .header-left .container-heading {
+  margin: 0;
+}
+.container-header-w .container-icon-expand {
+  justify-self: end;
+}
+
+.paste-box {
+  min-height: 25vh;
+  border-top: 1px solid #3B2F38;
+  background-color: rgba(219, 206, 159, 0.25);
+}
+
+/*# sourceMappingURL=pasteBox.css.map */
