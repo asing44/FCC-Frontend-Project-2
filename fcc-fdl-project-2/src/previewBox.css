@@ -20,28 +20,18 @@
   justify-self: end;
 }
 
-.paste-box-w {
-  position: relative;
+.preview-box-w {
   min-height: 25vh;
-  width: 100%;
+  padding: 0.25rem 0.5rem;
   border-top: 1px solid #3B2F38;
   background-color: rgba(219, 206, 159, 0.25);
   text-align: start;
 }
-.paste-box-w .paste-box {
+.preview-box-w .preview-box {
   display: block;
   height: 100%;
   width: 100%;
-  background-color: unset;
-  border: unset;
-  font-family: unset;
   line-height: 100%;
-  transition: all 250ms ease-in-out;
-}
-.paste-box-w .paste-box:focus {
-  outline: unset;
-  background-color: rgba(219, 206, 159, 0.45);
-  box-shadow: 2px 2px 2px 0px rgba(29, 26, 29, 0.15);
 }
 
-/*# sourceMappingURL=pasteBox.css.map */
+/*# sourceMappingURL=previewBox.css.map */

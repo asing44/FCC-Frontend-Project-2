@@ -25,7 +25,9 @@ body {
   display: flex;
   position: relative;
   width: 100%;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -45,6 +47,7 @@ input {
   display: grid;
   width: 80%;
   grid-template-rows: min-content;
+  margin-bottom: 2rem;
   border: 1px solid #3B2F38;
 }
 
