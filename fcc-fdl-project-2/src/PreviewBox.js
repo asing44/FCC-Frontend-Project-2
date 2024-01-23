@@ -1,6 +1,9 @@
 import './previewBox.css';
+import { marked } from "https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js";
 
-function PreviewBox() {
+function PreviewBox(props) {
+    const parsed = marked.parse(props.toParse)
+
     return (
         <div className="container">
             <header className='container-header-w'>
@@ -10,10 +13,13 @@ function PreviewBox() {
                 </div>
                 <i className="container-icon-expand fa-solid fa-expand"></i>
             </header>
-            <div className="paste-box-w">
+            <div id="previewer" className="preview-box-w">
+                {parsed}
             </div>
         </div>
     );
 }
+
+// const html = marked.parse('# Marked in Node.js\n\nRendered by **marked**.');
 
 export default PreviewBox;
