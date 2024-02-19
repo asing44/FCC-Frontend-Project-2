@@ -1,7 +1,9 @@
-import './previewBox.css';
+import { useState } from 'react'
+import './main.css'
 
-function PreviewBox() {
-    return (
+function Preview() {
+
+  return (
         <div className="container">
             <header className='container-header-w'>
                 <div className="header-left">
@@ -16,4 +18,4 @@ function PreviewBox() {
     );
 }
 
-export default PreviewBox;
+export default Preview;

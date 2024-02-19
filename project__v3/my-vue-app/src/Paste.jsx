@@ -1,7 +1,7 @@
-import './pasteBox.css';
-import { useState } from 'react';
+import { useState } from 'react'
+import './main.css'
 
-function PasteBox() {
+function Paste() {
   const [paste, setPaste] = useState("");
 
   return (
@@ -20,4 +20,4 @@ function PasteBox() {
   );
 }
 
-export default PasteBox;
+export default Paste
