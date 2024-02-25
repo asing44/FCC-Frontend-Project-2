@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import './main.css'
 
-function Preview() {
+function Preview({ userPreview }) {
 
-  return (
+    return (
         <div className="container">
             <header className='container-header-w'>
                 <div className="header-left">
@@ -13,6 +13,7 @@ function Preview() {
                 <i className="container-icon-expand fa-solid fa-expand"></i>
             </header>
             <div className="paste-box-w">
+                { userPreview }
             </div>
         </div>
     );

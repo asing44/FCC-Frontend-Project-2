@@ -1,8 +1,7 @@
 import { useState } from 'react'
 import './main.css'
 
-function Paste() {
-  const [paste, setPaste] = useState("");
+function Paste({ userPaste, onType}) {
 
   return (
     <div className="container">
@@ -14,7 +13,7 @@ function Paste() {
         <i className="container-icon-expand fa-solid fa-expand"></i>
       </header>
       <div className="paste-box-w">
-        <textarea className="paste-box" type="textbox" placeholder="Paste Markdown here..." value={paste} onChange={e => setPaste(e.target.value)}></textarea>
+        <textarea className="paste-box" type="textbox" placeholder="Paste Markdown here..." value={ userPaste } onChange={onType}></textarea>
       </div>
     </div>
   );
