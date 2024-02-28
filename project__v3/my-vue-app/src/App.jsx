@@ -1,5 +1,5 @@
 import { useState } from "react"
-import './main.css'
+import './app.css'
 import Paste from './Paste.jsx'
 import Preview from './Preview.jsx'
 
